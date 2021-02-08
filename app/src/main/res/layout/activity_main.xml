@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="10dp"
+    tools:layout_editor_absoluteY="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-61dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#FF9800"
+                tools:text="Negar_Rahmanpoor" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150"
+            android:layout_marginLeft="150"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/name1"
+                android:layout_width="100"
+                android:layout_height="50"
+                android:layout_marginStart="10"
+                android:layout_marginLeft="10"
+                android:background="#673AB7"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="hila"
+                android:textColor="#FFC107"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/key1"
+                android:layout_width="50"
+                android:layout_height="50"
+                android:layout_marginStart="240"
+                android:layout_marginLeft="240"
+                app:srcCompat="@android:drawable/sym_action_call" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/ussd"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10"
+                android:layout_marginLeft="10"
+                android:layout_marginTop="30dp"
+                android:background="#673AB7"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="elmira"
+                android:textColor="#FF9800" />
+
+            <ImageButton
+                android:id="@+id/key2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="237"
+                android:layout_marginLeft="237"
+                android:layout_marginTop="30"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/sym_action_call" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/ussd2"
+                android:layout_width="104dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="#673AB7"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="sunny"
+                android:textColor="#FF9800" />
+
+            <ImageButton
+                android:id="@+id/key3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="237"
+                android:layout_marginLeft="237"
+                android:layout_marginTop="20"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/sym_action_call" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName5"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#673AB7"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Miss calls"
+                android:textColor="#FF9800" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"></LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
